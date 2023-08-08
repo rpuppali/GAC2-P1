@@ -8,9 +8,9 @@ jobs:
     steps: 
         - name: echo a string 
           run: echo "Hello sample file"
-        - name: multiline
+        - name: multiline 
           run: |
             node -v
-            npm -v
+           
 
 
