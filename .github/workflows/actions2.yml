@@ -3,9 +3,9 @@ name: Run simple shell commands
 on: [push]
 
 jobs:
-  shell command: 
+  shellCommand: 
    runs-on: ubuntu-latest
-   Steps:
+   steps:
     - name: run_commands 
       run: |
         pwd
