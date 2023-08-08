@@ -3,7 +3,7 @@ name: Run simple shell commands
 on: [push]
 
 jobs:
-  Shell commands: 
+  shell command: 
    runs-on: ubuntu-latest
    Steps:
     - name: run_commands 
