@@ -1,0 +1,14 @@
+name: Run simple shell commands
+
+on: [push]
+
+jobs:
+  Shell commands: 
+   runs-on: ubuntu-latest
+   Steps:
+    - name: run_commands 
+      run: |
+        pwd
+        ls -a
+
+
